@@ -1,0 +1,68 @@
+.intro-video{
+    width: 375px;  
+    background-color: #222222;
+
+    h6{ 
+        padding-top:64px;
+        margin-left: 5%;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+
+        color: #BDAC8D;
+    }
+    h2{
+        margin-top:32px;
+        margin-left: 5%;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+
+        color: #FFFFFF;
+    }
+    p{
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 16px;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+
+        color: #C2C2C2;
+    }
+    aside{
+        video{
+            width: 335px;
+            height: 270px;
+            margin-left: 5%;
+        }
+        button{
+            margin-top: 36px;
+            margin-bottom:48px;
+            margin-left: 5%;
+            width: 216px;
+            height: 60px;
+            left: 0px;
+            top: 0px;
+            font-family: 'Archivo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 15px;
+            letter-spacing: 2.8px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+            background-color: #BDAC8D;
+        }
+    }
+}
