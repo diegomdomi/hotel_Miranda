@@ -1,0 +1,76 @@
+.rooms{
+    text-align: center;
+
+    h6{
+        margin-top:60px;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+
+        color: #777777;
+    }
+    h2{
+        margin:24px 0;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+
+        color: #222222;
+    }
+    .services-icons{
+        width: 256px;
+        margin: 0 auto;
+        
+    }
+    .room_slider img{
+        width: 375px;
+        height: 244px;
+    }
+
+    .minimal-card{
+        width: 335px;
+        height: 215px;
+        text-align: center;
+    h4{
+        margin-top: 19px;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: -1.2px;
+        color: #222222;
+    }
+    p{
+        margin: 0 auto;
+        width:80%;
+        margin-top: 19px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #777777;
+    }
+    h5{
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 43px;
+        text-align: center;
+        margin-top: 12px;
+        color: #BEAD8E;
+        sub{
+            font-size:12px
+        }
+    }
+    }
+}

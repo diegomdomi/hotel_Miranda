@@ -274,6 +274,78 @@ header {
   color: #FFFFFF;
 }
 
+.rooms {
+  text-align: center;
+}
+.rooms h6 {
+  margin-top: 60px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #777777;
+}
+.rooms h2 {
+  margin: 24px 0;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #222222;
+}
+.rooms .services-icons {
+  width: 256px;
+  margin: 0 auto;
+}
+.rooms .room_slider img {
+  width: 375px;
+  height: 244px;
+}
+.rooms .minimal-card {
+  width: 335px;
+  height: 215px;
+  text-align: center;
+}
+.rooms .minimal-card h4 {
+  margin-top: 19px;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -1.2px;
+  color: #222222;
+}
+.rooms .minimal-card p {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+.rooms .minimal-card h5 {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  margin-top: 12px;
+  color: #BEAD8E;
+}
+.rooms .minimal-card h5 sub {
+  font-size: 12px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
