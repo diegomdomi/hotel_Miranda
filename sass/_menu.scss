@@ -1,0 +1,82 @@
+.menu{
+    &__logo{
+        display:flex;
+        justify-content: flex-end;
+        margin-top:60px;
+    }
+
+    h6{
+        margin-left: 5%;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+
+        color: #777777; 
+    }
+    h2{
+        width: 70%;
+        margin-top: 24px;
+        margin-left: 5%;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+
+        color: #222222;
+    }
+
+    .menu__list{
+        margin-top:32px ;
+
+        &__items {
+            display:flex;
+            gap: 30px;
+            margin-left:5%;
+            margin-bottom: 16px;
+
+        &__title{
+            width:50%;
+        h5{
+            padding-top: 8px;
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: -0.72px;
+
+            color: #222222;
+        }
+        p{
+            padding-top: 12px; 
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #222222; 
+            }
+        }
+        }
+            img{
+            width:120px;
+            height:120px;
+        }
+    }
+
+    .gourmet{
+        margin-top:60px;
+        text-align: center;
+
+        img{
+            width: 335px;
+            height: 305px;  
+        }
+    } 
+    }
