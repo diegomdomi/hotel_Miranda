@@ -1,18 +1,17 @@
 header {
+  width: 100%;
   background: #FFFFFF;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-  width: 100%;
-  padding-bottom: 17px;
-  padding-top: 17px;
+  width: 90%;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.container__burger {
-  margin-left: 5%;
 }
 .container__box-h {
   width: 36px;
@@ -25,13 +24,217 @@ header {
   padding: 12px;
 }
 .container__main-title {
-  padding-right: 100px;
+  flex: 1;
 }
 .container__main-title span {
   font-weight: bolder;
 }
 .container__search {
-  padding: 0 25px;
+  margin-left: 25px;
+}
+
+.main {
+  background: #333333;
+}
+.main__pre-title {
+  width: 60%;
+  padding-top: 75px;
+  margin-bottom: 40px;
+  margin-left: 5%;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  color: #FFFFFF;
+}
+.main__title {
+  max-width: 80%;
+  margin-left: 5%;
+  margin-bottom: 40px;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #FFFFFF;
+}
+.main__button1 {
+  display: block;
+  width: 217px;
+  height: 60px;
+  background: #BEAD8E;
+  margin-left: 5%;
+  margin-top: 24px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.main__button2 {
+  display: block;
+  width: 217px;
+  height: 60px;
+  margin-top: 24px;
+  margin-left: 5%;
+  margin-bottom: 76px;
+  background: #333333;
+  border: 2px solid rgba(255, 255, 255, 0.33);
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.main__form__container {
+  background: #222222;
+}
+.main__form__container__body {
+  padding-top: 36px;
+  padding-bottom: 30px;
+}
+.main__form__container__body label {
+  margin-left: 5%;
+  padding-bottom: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.main__form__container__body input {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 25px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #BEAD8E;
+  background-color: #222222;
+  color: #686868;
+}
+.main__form__container__body input #date {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main__form__container button {
+  width: 250px;
+  height: 60px;
+  background: #BEAD8E;
+  margin-top: 12px;
+  margin-bottom: 36px;
+  margin-left: 5%;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.about-us {
+  margin-top: 60px;
+}
+.about-us__discover {
+  background-color: #F9F9F9;
+}
+.about-us h6 {
+  padding-top: 38px;
+  margin-left: 5%;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #777777;
+}
+.about-us h2 {
+  margin-top: 22px;
+  margin-bottom: 16px;
+  margin-left: 5%;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #111111;
+}
+.about-us p {
+  width: 80%;
+  margin-left: 5%;
+  margin-bottom: 24px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+.about-us button {
+  width: 216px;
+  height: 60px;
+  margin-left: 5%;
+  margin-bottom: 175px;
+  border: none;
+  background: #BDAC8D;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.about-us .hotel-bell {
+  width: 270px;
+  height: 300px;
+}
+.about-us .strong-team {
+  position: relative;
+  width: 270px;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 115px;
+  background: #FFFFFF;
+  padding-bottom: 45px;
+  box-shadow: 0px 8px 16px rgba(34, 34, 34, 0.02);
+}
+.about-us .persons-img {
+  position: relative;
+  margin-top: 54px;
+  z-index: 1;
+}
+.about-us .persons-shadow {
+  position: absolute;
+  top: 350px;
+  right: 25px;
+}
+.about-us h4 {
+  margin-top: 29px;
+  margin-bottom: 21px;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.9px;
 }
 
 * {

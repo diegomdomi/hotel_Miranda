@@ -1,0 +1,106 @@
+.about-us{
+    margin-top:60px;
+
+    &__discover{
+        
+        background-color: #F9F9F9;
+    }
+    h6{
+        padding-top:38px;
+        margin-left:5%;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+
+        color: #777777;
+    }
+
+    h2{
+        margin-top:22px;
+        margin-bottom: 16px;
+        margin-left:5%;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+
+        color: #111111;
+    }
+
+    p{  width: 80%;
+        margin-left:5%;
+        margin-bottom: 24px;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #777777;
+    }
+
+    button{
+        width: 216px;
+        height: 60px;
+        margin-left: 5%;
+        margin-bottom: 175px;
+        border:none;
+        background: #BDAC8D;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .hotel-bell{
+        width:270px;
+        height: 300px;
+    }
+    .strong-team{
+        position: relative;
+        width: 270px;
+        text-align: center;
+        margin:0 auto;
+        bottom: 115px;
+        background: #FFFFFF;
+        padding-bottom: 45px;
+        box-shadow: 0px 8px 16px rgba(34, 34, 34, 0.02);
+    }
+    .persons-img{
+        position: relative;
+        margin-top:54px;
+        z-index: 1;
+
+    }
+    .persons-shadow{
+        position:absolute;
+        top: 350px;
+        right: 25px;
+    }
+   
+    h4{
+        margin-top: 29px;
+        margin-bottom:21px;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: -0.9px;
+    }
+
+    // p{
+    //     padding-bottom: 38px;
+    // }
+        
+}
