@@ -62,7 +62,7 @@
         color: #FFFFFF;
     }
 
-    .hotel-bell{
+    .about-pic{
         width:270px;
         height: 300px;
     }
@@ -75,6 +75,8 @@
         background: #FFFFFF;
         padding-bottom: 45px;
         box-shadow: 0px 8px 16px rgba(34, 34, 34, 0.02);
+
+       
     }
     .persons-img{
         position: relative;
@@ -99,8 +101,44 @@
         letter-spacing: -0.9px;
     }
 
-    // p{
-    //     padding-bottom: 38px;
-    // }
-        
+    .luxury_container{
+        width: 270px;
+        text-align: center;
+        margin:0 auto;
+    &__pic{
+        width:270px;
+        height: 300px;
+        }
+    &__body{
+        position: relative;
+        bottom:4px;
+        background-color: #222222;
+        .img-calendar{
+            margin-top:54px
+        }
+        h4{
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 30px;
+            text-align: center;
+            letter-spacing: -0.9px;
+
+            color: #FFFFFF;
+        }
+        p{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            padding-bottom: 38px;
+            color: #FFFFFF;
+        }
+    }    
+
+    }
+  
 }

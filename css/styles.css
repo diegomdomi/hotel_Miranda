@@ -202,7 +202,7 @@ header {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.about-us .hotel-bell {
+.about-us .about-pic {
   width: 270px;
   height: 300px;
 }
@@ -235,6 +235,43 @@ header {
   font-size: 30px;
   line-height: 30px;
   letter-spacing: -0.9px;
+}
+.about-us .luxury_container {
+  width: 270px;
+  text-align: center;
+  margin: 0 auto;
+}
+.about-us .luxury_container__pic {
+  width: 270px;
+  height: 300px;
+}
+.about-us .luxury_container__body {
+  position: relative;
+  bottom: 4px;
+  background-color: #222222;
+}
+.about-us .luxury_container__body .img-calendar {
+  margin-top: 54px;
+}
+.about-us .luxury_container__body h4 {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.9px;
+  color: #FFFFFF;
+}
+.about-us .luxury_container__body p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  padding-bottom: 38px;
+  color: #FFFFFF;
 }
 
 * {
