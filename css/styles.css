@@ -7,31 +7,73 @@ header {
   justify-content: center;
 }
 
-.container {
+.container-menu {
   width: 90%;
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.container__box-h {
+.container-menu__burger, .container-menu__burger-close {
+  display: inline-block;
+  padding-left: 10%;
+}
+.container-menu__box-h {
   width: 36px;
   height: 36px;
   margin: 0 10px 0 25px;
   background: #FFFFFF;
   box-shadow: 0px 14px 24px rgba(139, 139, 139, 0.25);
 }
-.container__box-h p {
+.container-menu__box-h p {
   padding: 12px;
 }
-.container__main-title {
+.container-menu__main-title {
   flex: 1;
 }
-.container__main-title span {
+.container-menu__main-title span {
   font-weight: bolder;
 }
-.container__search {
+.container-menu__search {
   margin-left: 25px;
+}
+
+.nav__list {
+  display: none;
+}
+
+.is_active {
+  display: block;
+  margin-top: 40px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
+}
+.is_active a {
+  display: flex;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 3.28px;
+  text-transform: uppercase;
+  line-height: 2.5rem;
+  color: #A5A5A5;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 15px;
+}
+.is_active :hover {
+  color: black;
+}
+
+.a-menu {
+  display: none;
 }
 
 .main {
@@ -204,8 +246,9 @@ header {
   color: #FFFFFF;
 }
 .about-us .about-pic {
-  width: 270px;
+  width: 100%;
   height: 300px;
+  object-fit: cover;
 }
 .about-us .strong-team {
   position: relative;
@@ -243,8 +286,9 @@ header {
   margin: 0 auto;
 }
 .about-us .luxury_container__pic {
-  width: 270px;
+  width: 100%;
   height: 300px;
+  object-fit: cover;
 }
 .about-us .luxury_container__body {
   position: relative;
@@ -302,18 +346,47 @@ header {
 .rooms .services-icons {
   width: 256px;
   margin: 0 auto;
+  position: relative;
+  bottom: auto;
+  top: 10px;
+  z-index: 5;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(138, 138, 138, 0.05);
 }
 .rooms .room__slider .swiper {
-  width: 375px;
+  width: 100%;
   height: 244px;
 }
 .rooms .room__slider .swiper .swiper-slide img {
-  width: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.rooms .room__slider .swiper .swiper-button-prev,
+.rooms .room__slider .swiper .swiper-button-next {
+  --swiper-navigation-size:25px;
+  background-color: white;
+  height: 60px;
+  width: 40px;
+  margin-top: -30px;
+}
+.rooms .room__slider .swiper .swiper-button-prev {
+  border-radius: 0 65px 65px 0;
+  left: -10px;
+}
+.rooms .room__slider .swiper .swiper-button-next {
+  border-radius: 65px 0 0 65px;
+  right: -10px;
 }
 .rooms .minimal-card {
+  margin: 0 auto;
   width: 335px;
   height: 215px;
   text-align: center;
+  position: relative;
+  bottom: 30px;
+  background: #FFFFFF;
+  width: 335px;
+  z-index: 5;
 }
 .rooms .minimal-card h4 {
   margin-top: 19px;
@@ -351,7 +424,6 @@ header {
 }
 
 .intro-video {
-  width: 375px;
   background-color: #222222;
 }
 .intro-video h6 {
@@ -389,7 +461,7 @@ header {
   color: #C2C2C2;
 }
 .intro-video aside video {
-  width: 335px;
+  width: 90%;
   height: 270px;
   margin-left: 5%;
 }
@@ -541,6 +613,7 @@ header {
 .menu .menu__list img {
   width: 120px;
   height: 120px;
+  object-fit: cover;
 }
 .menu .gourmet {
   margin-top: 60px;

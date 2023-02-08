@@ -64,8 +64,9 @@
     }
 
     .about-pic{
-        width:270px;
+        width:100%;
         height: 300px;
+        object-fit: cover;
     }
     .strong-team{
         position: relative;
@@ -105,8 +106,10 @@
         text-align: center;
         margin:0 auto;
     &__pic{
-        width:270px;
+        width:100%;
         height: 300px;
+        object-fit: cover;
+
         }
     &__body{
         position: relative;
