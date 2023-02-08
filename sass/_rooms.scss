@@ -29,9 +29,17 @@
         margin: 0 auto;
         
     }
-    .room_slider img{
+    // .room_slider img{
+    //     width: 375px;
+    //     height: 244px;
+    // }
+    .room__slider .swiper{
         width: 375px;
         height: 244px;
+
+        .swiper-slide img{
+            width: 400px;
+        }
     }
 
     .minimal-card{

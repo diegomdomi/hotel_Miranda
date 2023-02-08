@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Hotel Miranda</title>
 </head>
 <body>
     <header>
@@ -73,8 +77,28 @@
            <img src="./Assets/smoking_no_icon.png" alt="no_smokin"> 
            <img src="./Assets/cocktail_drink.png" alt="cocktail"> 
         </div>
-        <div class="room_slider">
-            <img src="./Assets/minimal-duplex.jpg" alt="">
+        <div class="room__slider">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="./Assets/img-room/room1.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./Assets/img-room/room2.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./Assets/img-room/room3.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./Assets/img-room/room4.jpg" alt=""></div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+            <!-- <img src="./Assets/minimal-duplex.jpg" alt=""> -->
         </div>
         <div class="minimal-card">
             <h4>Minimal Duplex Room</h4>
@@ -224,5 +248,7 @@
                 <p>Terms of use | Privacy Environmental Policy</p>
            </div> 
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
 </body>
 </html>

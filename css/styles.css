@@ -303,9 +303,12 @@ header {
   width: 256px;
   margin: 0 auto;
 }
-.rooms .room_slider img {
+.rooms .room__slider .swiper {
   width: 375px;
   height: 244px;
+}
+.rooms .room__slider .swiper .swiper-slide img {
+  width: 400px;
 }
 .rooms .minimal-card {
   width: 335px;
