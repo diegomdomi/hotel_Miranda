@@ -51,15 +51,15 @@
 }
 .about-us__body{
     &-video{
-        width: 335px;
+        margin: 0 auto;
         margin-top:60px;
+        width:90%;
         video{
-            width: 90%;
-            margin-left: 5%;
+            width: 100%;
         }
         p{
             margin-top:36px;
-            margin-left: 5%;
+            // margin-left: 5%;
             font-family: 'Old Standard TT';
             font-style: normal;
             font-weight: 400;
@@ -73,6 +73,8 @@
     }
 }
 .about-us__icons{
+    width: 90%;
+    margin: 0 auto;
     margin-top:50px;
     margin-bottom: 31px;
     text-align: center;
@@ -97,4 +99,109 @@
             color: #222222;
         }
     }
+}
+
+.about-us__restaurant{
+    padding-top:60px;
+    width: 90%;
+    margin: 0 auto;
+
+    &-gourmet{
+        img{
+            margin-left: 5%;
+            width: 85%;
+            height: 232px;
+        }
+    }
+    h6{
+        margin-top:32px;
+        margin-left: 5%;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+
+        color: #777777;
+    }
+    h2{
+        margin-top: 26px;
+        margin-left: 5%;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 49px;
+        letter-spacing: -1.05px;
+
+        color: #222222;
+    }
+    p{
+        width:80%;
+        margin-top: 26px;
+        margin-left: 5%;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #777777;
+    }
+    button{
+        margin-top:16px;
+        margin-left: 5%;
+
+        width: 216px;
+        height: 60px;
+        background: #BEAD8E;
+        border:none;
+        box-shadow: 0px 14px 24px rgba(190, 173, 142, 0.36);
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+}
+
+
+.about-us__facilities{
+    background-color:#222222;
+    text-align: center;
+
+    h6{
+        padding-top:48px;
+        color: #FFFFFF;
+    }
+    h2{
+        padding-top: 16px;
+        color: #FFFFFF;
+    }
+    &_background{
+        width: 90%;
+        margin: 0 auto;
+        margin-top:32px;
+        padding-bottom:51px;
+        background-color:#292929;
+        h4{
+            color:#222222;
+        }
+        h5,p{
+            color: #FFFFFF;
+        }
+    }
+    .high-rating{
+        padding-bottom: 42px;
+    }
+}
+.about-us__counter{
+    margin-top:60px;
+    width: 90%;
+    margin: 0 auto;
 }
