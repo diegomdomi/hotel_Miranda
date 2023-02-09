@@ -960,9 +960,52 @@ header {
 }
 
 .about-us__counter {
-  margin-top: 60px;
   width: 90%;
+  padding-top: 60px;
   margin: 0 auto;
+}
+.about-us__counter h6 {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #777777;
+}
+.about-us__counter h2 {
+  margin-top: 24px;
+  margin-bottom: 36px;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #222222;
+}
+.about-us__counter__list {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.about-us__counter__list-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.about-us__counter__list-title p {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  color: #222222;
+}
+.about-us__counter__list-title h6 {
+  letter-spacing: 0;
 }
 
 * {
