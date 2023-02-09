@@ -9,6 +9,7 @@
 @use 'footer';
 @use './about-us/about';
 @use './rooms/rooms-main';
+@use './rooms/room-detail';
 
 * {
     box-sizing: border-box;
