@@ -56,6 +56,9 @@
      .social{
         margin-left: 5%;
         margin-top: 40px;
+        &__twitter{
+            filter: brightness(45%) sepia(0)
+        }
         img{
             padding-right: 10px;
         }

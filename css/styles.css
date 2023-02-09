@@ -708,6 +708,9 @@ header {
   margin-left: 5%;
   margin-top: 40px;
 }
+.footer .social__twitter {
+  filter: brightness(45%) sepia(0);
+}
 .footer .social img {
   padding-right: 10px;
 }
@@ -768,6 +771,101 @@ header {
 .footer .copyright p:first-child {
   padding-top: 16px;
   padding-bottom: 24px;
+}
+
+.about-us__home {
+  background-color: #333333;
+}
+.about-us__home p:first-child {
+  margin-left: 5%;
+  padding-top: 75px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  color: #FFFFFF;
+}
+.about-us__home h1 {
+  margin-left: 5%;
+  margin-top: 16px;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #FFFFFF;
+}
+.about-us__home-about {
+  width: 156px;
+  height: 49px;
+  display: flex;
+  margin-top: 47px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50%;
+  background-color: #FFFFFF;
+}
+.about-us__home-about h6 {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: -0.48px;
+  color: #222222;
+}
+.about-us__home-about span {
+  color: rgb(190, 173, 142);
+}
+
+.about-us__body-video {
+  width: 335px;
+  margin-top: 60px;
+}
+.about-us__body-video video {
+  width: 90%;
+  margin-left: 5%;
+}
+.about-us__body-video p {
+  margin-top: 36px;
+  margin-left: 5%;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -1.16px;
+  color: #222222;
+}
+
+.about-us__icons {
+  margin-top: 50px;
+  margin-bottom: 31px;
+  text-align: center;
+}
+.about-us__icons-plane {
+  filter: brightness(55%) sepia(1);
+}
+.about-us__icons-group {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.about-us__icons-group p {
+  margin-top: 13px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #222222;
 }
 
 * {

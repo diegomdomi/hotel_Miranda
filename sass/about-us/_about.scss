@@ -1,0 +1,100 @@
+.about-us__home{
+    background-color: #333333;
+    p:first-child{
+        margin-left: 5%;
+        padding-top: 75px;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 2.8px;
+
+        color: #FFFFFF;
+    }
+    h1{
+        margin-left: 5%;
+        margin-top:16px;
+        font-family: 'Old Standard TT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+
+        color: #FFFFFF;
+    }
+
+    &-about {
+        width: 156px;
+        height: 49px;
+        display: flex;
+        margin-top: 47px;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 50%;
+        background-color: #FFFFFF;
+        h6{
+            font-family: 'Archivo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 17px;
+            letter-spacing: -0.48px;
+
+            color: #222222;
+        }
+        span{
+            color:rgba(190, 173, 142, 1) ;
+        }
+    }
+}
+.about-us__body{
+    &-video{
+        width: 335px;
+        margin-top:60px;
+        video{
+            width: 90%;
+            margin-left: 5%;
+        }
+        p{
+            margin-top:36px;
+            margin-left: 5%;
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: -1.16px;
+
+            color: #222222;
+        }
+    }
+}
+.about-us__icons{
+    margin-top:50px;
+    margin-bottom: 31px;
+    text-align: center;
+    &-plane{
+        filter: brightness(55%) sepia(1)
+    }
+    &-group{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        p{
+            margin-top:13px;
+            font-family: 'Archivo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 2.4px;
+            text-transform: uppercase;
+
+            color: #222222;
+        }
+    }
+}

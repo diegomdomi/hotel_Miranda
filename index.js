@@ -22,7 +22,7 @@ const swiper = new Swiper('.swiper', {
     },
   });
 
-const menuMobil = document.querySelector('.container-menu');
+const menuMobil = document.querySelector('.container-menu__toggle');
 const menuOpenMobil = menuMobil.querySelector('.container-menu__burger')
 const menuCloseMobil = document.querySelector('.container-menu__burger-close');
 menuCloseMobil.style.display="none";
