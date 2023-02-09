@@ -1008,6 +1008,89 @@ header {
   letter-spacing: 0;
 }
 
+.room-card {
+  width: 90%;
+  padding-top: 48px;
+  margin: 0 auto;
+}
+.room-card .card-img img {
+  width: 100%;
+  object-fit: cover;
+  height: 220px;
+}
+.room-card .services-icons {
+  width: 256px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 10px;
+  z-index: 50;
+  background: white;
+  margin: 0 auto;
+  box-shadow: 0px 8px 16px rgba(138, 138, 138, 0.05);
+}
+.room-card .minimal-card {
+  margin: 0 auto;
+  width: 335px;
+  height: 215px;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  background: #FFFFFF;
+  width: 335px;
+  z-index: 5;
+}
+.room-card .minimal-card h4 {
+  margin-top: 28px;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -1.2px;
+  color: #222222;
+}
+.room-card .minimal-card p {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+.room-card .minimal-card__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+.room-card .minimal-card__price h5 {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  margin-top: 12px;
+  color: #BEAD8E;
+}
+.room-card .minimal-card__price h5 sub {
+  font-size: 12px;
+}
+.room-card .minimal-card__price h6 {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: right;
+  color: #BDBDBD;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
