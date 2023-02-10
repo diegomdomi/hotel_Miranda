@@ -1,13 +1,31 @@
 .contact{
+    width: 90%;
+    margin: 0 auto;
+    gap:27px;
     margin-top: 24px;
+    margin-bottom: 80px;
     display: flex;
-    justify-content: space-around;
+    padding-top: 46px;
     position: relative;
-    width: 65%;
     &__addres{
         width: 50%;
+        p:first-child{
+            padding-bottom: 15px;
+            font-family: 'Old Standard TT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #222222;
+        }
+        p:last-child{
+            color:rgba(119, 119, 119, 1);
+        }
     }
     &__number{
+        top:0;
+        right:0;
         position: absolute;
         z-index: -1;
         font-family: 'Roboto';
@@ -22,9 +40,9 @@
 .contact-img{
     width: 80%;
     margin:0 auto;
-    margin-top: 24px;
+    padding-top: 60px;
     img{
-        width: 80%;
+        width: 100%;
     }
 }
 .contact-form{

@@ -623,6 +623,13 @@ header {
   height: 305px;
   object-fit: cover;
 }
+.menu .button-slider {
+  position: relative;
+  display: flex;
+}
+.menu .button-slider img {
+  display: inline;
+}
 
 .black {
   background-color: #222222;
@@ -1472,16 +1479,33 @@ h5 sub {
 }
 
 .contact {
+  width: 90%;
+  margin: 0 auto;
+  gap: 27px;
   margin-top: 24px;
+  margin-bottom: 80px;
   display: flex;
-  justify-content: space-around;
+  padding-top: 46px;
   position: relative;
-  width: 65%;
 }
 .contact__addres {
   width: 50%;
 }
+.contact__addres p:first-child {
+  padding-bottom: 15px;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222222;
+}
+.contact__addres p:last-child {
+  color: rgb(119, 119, 119);
+}
 .contact__number {
+  top: 0;
+  right: 0;
   position: absolute;
   z-index: -1;
   font-family: "Roboto";
@@ -1496,10 +1520,10 @@ h5 sub {
 .contact-img {
   width: 80%;
   margin: 0 auto;
-  margin-top: 24px;
+  padding-top: 60px;
 }
 .contact-img img {
-  width: 80%;
+  width: 100%;
 }
 
 .contact-form {

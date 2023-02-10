@@ -82,4 +82,12 @@
             object-fit: cover;
         }
     } 
+    .button-slider{
+        position: relative;
+        display: flex;
+        img{
+            display: inline;
+
+        }
+    }
     }
