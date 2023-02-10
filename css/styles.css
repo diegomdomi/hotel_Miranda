@@ -381,12 +381,10 @@ header {
 .rooms .minimal-card {
   margin: 0 auto;
   width: 335px;
-  height: 215px;
   text-align: center;
   position: relative;
   bottom: 30px;
   background: #FFFFFF;
-  width: 335px;
   z-index: 5;
 }
 .rooms .minimal-card h4 {
@@ -623,6 +621,7 @@ header {
 .menu .gourmet img {
   width: 335px;
   height: 305px;
+  object-fit: cover;
 }
 
 .black {
@@ -1032,14 +1031,8 @@ header {
 }
 .room-card .minimal-card {
   margin: 0 auto;
-  width: 335px;
-  height: 215px;
   text-align: center;
-  position: relative;
-  bottom: 30px;
   background: #FFFFFF;
-  width: 335px;
-  z-index: 5;
 }
 .room-card .minimal-card h4 {
   margin-top: 28px;
@@ -1476,6 +1469,52 @@ h5 sub {
   line-height: 17px;
   text-align: right;
   color: #BDBDBD;
+}
+
+.contact {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 65%;
+}
+.contact__addres {
+  width: 50%;
+}
+.contact__number {
+  position: absolute;
+  z-index: -1;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 234px;
+  letter-spacing: -6px;
+  color: #F8F8F8;
+}
+
+.contact-img {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+.contact-img img {
+  width: 80%;
+}
+
+.contact-form {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: #F8F8F8;
+  padding-top: 25px;
+  padding-bottom: 23px;
+  padding-left: 26px;
+  border: none;
 }
 
 * {

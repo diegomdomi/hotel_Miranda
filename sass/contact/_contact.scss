@@ -1,0 +1,44 @@
+.contact{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 65%;
+    &__addres{
+        width: 50%;
+    }
+    &__number{
+        position: absolute;
+        z-index: -1;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 200px;
+        line-height: 234px;
+        letter-spacing: -6px;
+        color: #F8F8F8; 
+    }
+}
+.contact-img{
+    width: 80%;
+    margin:0 auto;
+    margin-top: 24px;
+    img{
+        width: 80%;
+    }
+}
+.contact-form{
+    width:80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    input,textarea{
+        width: 100%;
+        margin-bottom: 16px;
+        background-color: #F8F8F8;
+        padding-top:25px;
+        padding-bottom :23px;
+        padding-left: 26px;
+        border:none;
+    }
+   
+}
