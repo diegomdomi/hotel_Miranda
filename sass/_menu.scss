@@ -83,11 +83,9 @@
         }
     } 
     .button-slider{
-        position: relative;
         display: flex;
-        img{
-            display: inline;
-
-        }
+        flex-direction: row-reverse;
+        width: 90%;
+        
     }
     }

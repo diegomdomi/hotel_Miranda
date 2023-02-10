@@ -632,11 +632,9 @@ header {
   object-fit: cover;
 }
 .menu .button-slider {
-  position: relative;
   display: flex;
-}
-.menu .button-slider img {
-  display: inline;
+  flex-direction: row-reverse;
+  width: 90%;
 }
 
 .black {
