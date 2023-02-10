@@ -140,25 +140,28 @@ header {
 }
 .main__form__container {
   background: #222222;
+  width: 100%;
 }
 .main__form__container__body {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
   padding-top: 36px;
   padding-bottom: 30px;
 }
 .main__form__container__body label {
-  margin-left: 5%;
-  padding-bottom: 30px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 19px;
   color: #FFFFFF;
 }
 .main__form__container__body input {
   width: 90%;
-  margin-left: 5%;
-  margin-top: 25px;
+  margin: 0 auto;
+  margin-top: 54px;
+  padding-left: 30px;
+  padding-bottom: 10px;
   border: none;
   outline: none;
   border-bottom: 1px solid #BEAD8E;
@@ -171,6 +174,11 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+}
+.main__form__container__body img {
+  position: absolute;
+  left: 1px;
+  top: 105px;
 }
 .main__form__container button {
   width: 250px;
@@ -1531,14 +1539,24 @@ h5 sub {
   margin: 0 auto;
   margin-top: 60px;
 }
-.contact-form input, .contact-form textarea {
+.contact-form__input-container {
+  position: relative;
+}
+.contact-form__input-container input, .contact-form__input-container textarea {
   width: 100%;
   margin-bottom: 16px;
   background-color: #F8F8F8;
   padding-top: 25px;
   padding-bottom: 23px;
-  padding-left: 26px;
+  padding-left: 60px;
   border: none;
+}
+.contact-form__input-container img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  left: 12px;
 }
 
 * {
