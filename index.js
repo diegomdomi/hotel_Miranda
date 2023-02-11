@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper_room', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -16,10 +16,10 @@ const swiper = new Swiper('.swiper', {
     },
   
     // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-      draggable:true,
-    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    //   draggable:true,
+    // },
   });
 
 
@@ -72,14 +72,14 @@ const swiper = new Swiper('.swiper', {
     },
   });
 
-  const swiper_gourmet = new Swiper('.gourmet', {
+  const swiper_gourmet = new Swiper('.swiper_gourmet', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
   
     // If we need pagination
     pagination: {
-      el: '.swiper-gourmet-pagination',
+      el: '.swiper-pagination',
       clickable:true
     },
   
