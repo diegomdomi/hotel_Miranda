@@ -106,3 +106,18 @@
     }
     }
 }
+
+@media only screen and (min-width: 1000px){ 
+    .rooms .room__slider .swiper_room{
+        width:70%;
+    }
+    .rooms .minimal-card{
+        width:100%;
+        p{
+            font-size:18px;
+        }
+        h5{
+            font-size: 52px;
+        }
+    }
+}

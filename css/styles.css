@@ -578,6 +578,20 @@ header {
   font-size: 12px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .rooms .room__slider .swiper_room {
+    width: 70%;
+  }
+  .rooms .minimal-card {
+    width: 100%;
+  }
+  .rooms .minimal-card p {
+    font-size: 18px;
+  }
+  .rooms .minimal-card h5 {
+    font-size: 52px;
+  }
+}
 .intro-video {
   background-color: #222222;
 }
@@ -608,6 +622,7 @@ header {
   width: 80%;
   margin-left: 5%;
   margin-top: 16px;
+  margin-bottom: 16px;
   font-family: "Archivo";
   font-style: normal;
   font-weight: 400;
@@ -615,12 +630,17 @@ header {
   line-height: 24px;
   color: #C2C2C2;
 }
-.intro-video aside video {
+.intro-video__video {
   width: 90%;
-  height: 270px;
-  margin-left: 5%;
+  margin: 0 auto;
+  margin-bottom: 36px;
 }
-.intro-video aside .book-now {
+.intro-video__video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.intro-video__button {
   margin-top: 36px;
   margin-bottom: 48px;
   margin-left: 5%;
@@ -639,6 +659,25 @@ header {
   background-color: #BDAC8D;
 }
 
+@media only screen and (min-width: 1000px) {
+  .intro-video__container {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+  }
+  .intro-video__title p {
+    font-size: 20px;
+  }
+  .intro-video__video {
+    height: 460px;
+    max-width: 520px;
+    min-width: 500px;
+  }
+  .intro-video__button {
+    margin-left: 15%;
+  }
+}
 .facilities h6 {
   text-align: center;
   margin-top: 60px;
