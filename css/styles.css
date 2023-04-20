@@ -265,15 +265,23 @@ header {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.main__form__container :hover {
+  cursor: pointer;
+}
 
 @media only screen and (min-width: 1000px) {
+  .main {
+    background-image: url(../Assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
   .main__pre-title {
     margin-left: 14%;
     font-size: 16px;
   }
   .main__title {
     margin-left: 14%;
-    width: 30%;
+    width: 40%;
     font-size: 120px;
     line-height: 120px;
   }
@@ -283,6 +291,17 @@ header {
   }
   .main__button2 {
     display: inline;
+  }
+  .main__form__container {
+    padding: 30px;
+  }
+  .main__form__container__body {
+    display: inline-block;
+    width: 24%;
+    margin-left: 14%;
+  }
+  .main__form__container button {
+    margin-left: 0px;
   }
 }
 .about-us {
@@ -416,6 +435,48 @@ header {
   color: #FFFFFF;
 }
 
+@media only screen and (min-width: 1000px) {
+  .about-us {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 100px;
+  }
+  .about-us__discover {
+    width: 40%;
+  }
+  .about-us__discover p {
+    font-size: 16px;
+    padding-top: 65px;
+    padding-bottom: 60px;
+  }
+  .about-us .strong-team {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px;
+    column-gap: 20px;
+    padding-bottom: 0px;
+    width: 95%;
+    position: inherit;
+  }
+  .about-us .strong-team__title-box p {
+    font-size: 18px;
+  }
+  .about-us .about-pic {
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .about-us .persons-shadow {
+    position: inherit;
+  }
+  .about-us .luxury_container {
+    display: flex;
+    column-gap: 20px;
+    width: 95%;
+  }
+}
 .rooms {
   text-align: center;
 }
@@ -452,7 +513,6 @@ header {
 }
 .rooms .room__slider .swiper_room {
   width: 100%;
-  height: 244px;
 }
 .rooms .room__slider .swiper_room .swiper_room-slide img {
   width: 100%;
