@@ -130,3 +130,42 @@
         }
     }
 }
+@media only screen and (min-width: 1000px){
+    .footer{
+        &__main{
+            width: 70%;
+            margin: 0 auto;
+
+            .service-contact{
+                display: flex;
+                margin-left: 4%;
+                .services-list__2{
+                    margin-left:80px;
+                }
+                .contact-us{
+                    margin-left: 15%;
+                    .contact-icons{
+                        display: flex;
+                        img{
+                           object-fit: contain;
+                       }
+                       &__numbers{
+                        width:140px;
+                       }
+                    }
+                }
+                
+            }
+        }
+        .copyright__paragraph{
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 4%;
+            p:first-child{
+                padding: 0px;
+            }
+        }
+    }
+}

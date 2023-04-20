@@ -35,3 +35,9 @@ margin-top: 60px;
     }
 }
 }
+@media only screen and (min-width: 1000px){
+    .black{
+        display:flex;
+        justify-content: space-around;
+    }
+}

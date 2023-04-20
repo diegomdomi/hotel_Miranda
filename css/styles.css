@@ -749,6 +749,9 @@ header {
   justify-content: flex-end;
   margin-top: 60px;
 }
+.menu__logo .big-donuts {
+  display: none;
+}
 .menu h6 {
   margin-left: 5%;
   font-family: "Archivo";
@@ -827,6 +830,47 @@ header {
   filter: brightness(45%) sepia(1);
 }
 
+@media only screen and (min-width: 1000px) {
+  .menu__logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-bottom: 40px;
+  }
+  .menu__logo .small-donuts {
+    display: none;
+  }
+  .menu__logo .big-donuts {
+    display: block;
+  }
+  .menu h6 {
+    font-size: 18px;
+  }
+  .menu h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .menu .menu__list {
+    display: flex;
+    margin-bottom: 50px;
+    width: 95%;
+  }
+  .menu .menu__list img {
+    width: 220px;
+    height: 220px;
+  }
+  .menu .button-slider {
+    width: 85%;
+  }
+  .menu .button-slider img {
+    width: 50px;
+    height: 50px;
+  }
+  .menu .gourmet img {
+    width: 535px;
+    height: 505px;
+  }
+}
 .black {
   background-color: #222222;
   margin-top: 60px;
@@ -861,6 +905,12 @@ header {
   padding-bottom: 48px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .black {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 .footer {
   background-image: url(../Assets/Rectángulo\ 2\ 1.png);
   margin-top: 60px;
@@ -976,6 +1026,41 @@ header {
   padding-bottom: 24px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .footer__main {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .footer__main .service-contact {
+    display: flex;
+    margin-left: 4%;
+  }
+  .footer__main .service-contact .services-list__2 {
+    margin-left: 80px;
+  }
+  .footer__main .service-contact .contact-us {
+    margin-left: 15%;
+  }
+  .footer__main .service-contact .contact-us .contact-icons {
+    display: flex;
+  }
+  .footer__main .service-contact .contact-us .contact-icons img {
+    object-fit: contain;
+  }
+  .footer__main .service-contact .contact-us .contact-icons__numbers {
+    width: 140px;
+  }
+  .footer .copyright__paragraph {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+  }
+  .footer .copyright__paragraph p:first-child {
+    padding: 0px;
+  }
+}
 .about-us__home {
   background-color: #333333;
 }
