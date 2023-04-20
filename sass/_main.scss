@@ -43,6 +43,8 @@
         text-transform: uppercase;
         color: #FFFFFF;
         
+    }:hover{
+        cursor: pointer;
     }
     &__button2{
         display: block;
@@ -62,6 +64,8 @@
         letter-spacing: 2.8px;
         text-transform: uppercase;
         color: #FFFFFF;
+    }:hover{
+        cursor: pointer;
     }
 
         
@@ -132,4 +136,27 @@
                
             }
         }
+}
+
+@media only screen and (min-width: 1000px) {
+    .main{
+        &__pre-title{
+            margin-left:14%;
+            font-size: 16px;
+        }
+        &__title{
+            margin-left:14%;
+            width: 30%;
+            font-size: 120px;
+            line-height: 120px;
+        }
+        &__button1{
+            display: inline;
+            margin-left:14%;
+
+        }
+        &__button2{
+            display: inline;
+        }
+    }
 }

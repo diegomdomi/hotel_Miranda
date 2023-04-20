@@ -19,16 +19,14 @@ header {
   padding-left: 10%;
 }
 .container-menu__box-h {
+  width: 36px;
+  height: 36px;
   margin: 0 10px 0 25px;
   background: #FFFFFF;
   box-shadow: 0px 14px 24px rgba(139, 139, 139, 0.25);
 }
 .container-menu__box-h p {
   padding: 12px;
-  font-weight: 700;
-  font-size: 18px;
-  text-decoration: none;
-  color: black;
 }
 .container-menu__main-title {
   flex: 1;
@@ -39,9 +37,6 @@ header {
 .container-menu__search {
   margin-left: 25px;
 }
-.container-menu a {
-  text-decoration: none;
-}
 
 .nav__list {
   display: none;
@@ -49,11 +44,9 @@ header {
 
 .is_active {
   display: block;
-  position: fixed;
-  margin-top: 235px;
-  right: 0px;
+  margin-top: 40px;
   padding-top: 25px;
-  padding-left: 50px;
+  padding-left: 25px;
   padding-bottom: 20px;
   width: 100%;
   background: #FFFFFF;
@@ -83,60 +76,9 @@ header {
   display: none;
 }
 
-@media only screen and (min-width: 1000px) {
+@media (min-width: 1000px) {
   header {
-    position: static;
-    background-color: var(--secondary-background);
-    align-items: flex-start;
-    height: 100px;
-  }
-  .container-menu {
-    position: fixed;
-    transform: translateY(45%);
-    width: 74%;
-    background-color: white;
-    height: 100px;
-    z-index: 100;
-    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.29);
-  }
-  .container-menu__burger, .container-menu__burger-close {
-    display: none;
-  }
-  .container-menu__box-h p {
-    font-size: 40px;
-  }
-  .container-menu__box-h :hover {
-    scale: 1.1;
-  }
-  .container-menu__main-title {
-    flex: 0;
-  }
-  .container-menu .nav__list {
-    display: flex;
-    gap: 40px;
-    flex: 1;
-  }
-  .container-menu .nav__list .a-menu {
-    display: flex;
-    text-decoration: none;
-    font-family: var(--font-archivo);
-    font-weight: 600;
-    font-size: 18px;
-    color: var(--color-titles);
-  }
-  .container-menu .nav__list :hover {
-    scale: 1.1;
-  }
-  .container-menu__main-title {
-    flex: 0.5;
-    font-size: 27px;
-  }
-  .container-menu__main-title span {
-    font-weight: bolder;
-    font-size: 27px;
-  }
-  .container-menu__search {
-    margin-right: 5%;
+    background-color: pink;
   }
 }
 .main {
@@ -183,9 +125,6 @@ header {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.main :hover {
-  cursor: pointer;
-}
 .main__button2 {
   display: block;
   width: 217px;
@@ -203,9 +142,6 @@ header {
   letter-spacing: 2.8px;
   text-transform: uppercase;
   color: #FFFFFF;
-}
-.main :hover {
-  cursor: pointer;
 }
 .main__form__container {
   background: #222222;
@@ -266,25 +202,6 @@ header {
   color: #FFFFFF;
 }
 
-@media only screen and (min-width: 1000px) {
-  .main__pre-title {
-    margin-left: 14%;
-    font-size: 16px;
-  }
-  .main__title {
-    margin-left: 14%;
-    width: 30%;
-    font-size: 120px;
-    line-height: 120px;
-  }
-  .main__button1 {
-    display: inline;
-    margin-left: 14%;
-  }
-  .main__button2 {
-    display: inline;
-  }
-}
 .about-us {
   margin-top: 60px;
 }
@@ -1656,6 +1573,12 @@ h5 sub {
 
 body {
   min-width: 320px;
+}
+
+@media (min-width: 1000px) {
+  header {
+    background-color: pink;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
