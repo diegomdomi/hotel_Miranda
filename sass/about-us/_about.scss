@@ -207,22 +207,7 @@
     .facilities__desktop{
         display: none;
     }
-    //     width: 70%;
-    //     margin: 0 auto;
-    //     gap: 35px;
-    //     display: flex;
-    //     margin-bottom: 35px;
-    //    .facilities__individual-container{
-    //     background-color: #292929;
-    //     h4{
-    //         color: #222222;
-    //     }
-    //     .facilities__title{
-    //         h5, p{
-    //             color: #FFFFFF;
-    //         }
-    //     }
-    //    }
+
 }
 .about-us__counter{
     width: 90%;
@@ -349,5 +334,14 @@
                 
     }
 
+}
+.about-us__counter{
+    width: 50%;
+    margin: 0 auto;
+}
+.about-us__counter__container{
+    display: flex;
+    margin: 0 auto;
+    gap: 60px;  
 }
 }

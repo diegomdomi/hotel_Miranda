@@ -1384,6 +1384,15 @@ header {
     color: #FFFFFF;
     padding-bottom: 35px;
   }
+  .about-us__counter {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .about-us__counter__container {
+    display: flex;
+    margin: 0 auto;
+    gap: 60px;
+  }
 }
 .room-card {
   width: 90%;
