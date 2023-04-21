@@ -1403,6 +1403,7 @@ header {
   width: 100%;
   object-fit: cover;
   height: 220px;
+  object-fit: contain;
 }
 .room-card .services-icons {
   width: 256px;
