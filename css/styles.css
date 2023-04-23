@@ -1472,6 +1472,13 @@ header {
   color: #BDBDBD;
 }
 
+@media only screen and (min-width: 1000px) {
+  .room-card-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 .double-bed__title {
   margin-top: 48px;
   margin-left: 5%;
