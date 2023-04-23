@@ -117,3 +117,23 @@ function toggleMenu(e) {
   }
 }
 menuMobil.addEventListener('click', toggleMenu);
+
+//Navbar scrolling functionality
+let nav = document.getElementById('nav-scroll');
+let initialValue = 0;
+let positionScroll = window.innerWidth < 999 ? true : false;
+
+if(!positionScroll) {
+
+  window.addEventListener("scroll", function(){ 
+    let currentValue = window.pageYOffset || document.documentElement.scrollTop; 
+ 
+    if (currentValue > initialValue) {
+      nav.style.position = 'absolute';
+    } else if (currentValue < initialValue) {
+      nav.style.position = 'fixed';
+    } 
+ 
+    initialValue = currentValue
+ });
+}
