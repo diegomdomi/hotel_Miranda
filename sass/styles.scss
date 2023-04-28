@@ -1,26 +1,24 @@
-@use 'header';
-@use 'main';
-@use 'about-us';
-@use 'rooms';
-@use 'intro-video';
-@use 'facilities';
-@use 'menu';
-@use 'black';
-@use 'footer';
-@use './about-us/about';
-@use './rooms/rooms-main';
-@use './rooms/room-detail';
-@use './offers/offers';
-@use './contact/contact';
+@use "header";
+@use "main";
+@use "about-us";
+@use "rooms";
+@use "intro-video";
+@use "facilities";
+@use "menu";
+@use "black";
+@use "footer";
+@use "./about-us/about";
+@use "./rooms/rooms-main";
+@use "./rooms/room-detail";
+@use "./offers/offers";
+@use "./contact/contact";
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-     min-width: 320px;
+  min-width: 320px;
 }
-
-

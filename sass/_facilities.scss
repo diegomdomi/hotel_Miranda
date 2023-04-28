@@ -1,104 +1,98 @@
-.facilities{
-    &__desktop{
-        display:none;
-    }
-    h6{
-        text-align: center;
-        margin-top:60px;
-        font-family: 'Archivo';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 15px;
-        letter-spacing: 2.8px;
-        text-transform: uppercase;
-    }
-    h2{
-        text-align: center;
-        margin-left: 5%;
-        margin-top:24px;
-        font-family: 'Old Standard TT';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 56px;
-        line-height: 60px;
-        letter-spacing: -1.2px;
+.facilities {
+  &__desktop {
+    display: none;
+  }
+  h6 {
+    text-align: center;
+    margin-top: 60px;
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+  }
+  h2 {
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 24px;
+    font-family: "Old Standard TT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
 
-        color: #222222;
-    }
-    &__number{
-        display:flex;
-        justify-content: space-around;
-        margin-bottom: 37px;
+    color: #222222;
+  }
+  &__number {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 37px;
 
-    h4{
-        font-family: 'Archivo';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 120px;
-        line-height: 130px;
-        color: rgba(34, 34, 34, 0.04);
+    h4 {
+      font-family: "Archivo";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 120px;
+      line-height: 130px;
+      color: rgba(34, 34, 34, 0.04);
     }
-    img{
-        object-fit: contain;
-        margin-top: 80px;
+    img {
+      object-fit: contain;
+      margin-top: 80px;
     }
-        
-    }
-    &__title{
-        width:70%;
-        margin-left: 10%;
-        
-        
-    }
-    h5{
+  }
+  &__title {
+    width: 70%;
+    margin-left: 10%;
+  }
+  h5 {
+    font-family: "Old Standard TT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -0.9px;
 
-        font-family: 'Old Standard TT';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 30px;
-        letter-spacing: -0.9px;
-
-        color: #222222;
-    }
-    p{
-
-        margin-top: 29px;
-        font-family: 'Archivo';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #777777;
-    }
-    .high-rating{
-        margin-top: 32px;
-        text-align: center;
-    }
-   
+    color: #222222;
+  }
+  p {
+    margin-top: 29px;
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+  }
+  .high-rating {
+    margin-top: 32px;
+    text-align: center;
+  }
 }
 
-@media only screen and (min-width: 1000px){
-    .facilities .swiper {
-        display: none;
-      }
-      .facilities__desktop {
-        width: 70%;
-        margin: 0 auto;
-        margin-top: 60px;
-        display: flex;
-        // &__individual-container{
+@media only screen and (min-width: 1000px) {
+  .facilities .swiper {
+    display: none;
+  }
+  .facilities__desktop {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    // &__individual-container{
 
-        // }
-        .facilities__number{
-            display: flex;
-            justify-content: flex-start;
-        }
-        .facilities__title{
-            p{
-                font-size:16px;
-            }
-        }
+    // }
+    .facilities__number {
+      display: flex;
+      justify-content: flex-start;
+    }
+    .facilities__title {
+      p {
+        font-size: 16px;
       }
+    }
+  }
 }

@@ -1,181 +1,178 @@
-.main{
+.main {
+  background: #333333;
+
+  &__pre-title {
+    width: 60%;
+    padding-top: 75px;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2.8px;
+    color: #ffffff;
+  }
+  &__title {
+    max-width: 80%;
+    margin-left: 5%;
+    margin-bottom: 40px;
+    font-family: "Old Standard TT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+    color: #ffffff;
+  }
+  &__button1 {
+    display: block;
+    width: 217px;
+    height: 60px;
+    background: #bead8e;
+    margin-left: 5%;
+    margin-top: 24px;
+
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  :hover {
+    cursor: pointer;
+  }
+  &__button2 {
+    display: block;
+    width: 217px;
+    height: 60px;
+    margin-top: 24px;
+    margin-left: 5%;
+    margin-bottom: 76px;
     background: #333333;
 
-    &__pre-title{
-        width: 60%;
-        padding-top: 75px;;
-        margin-bottom:40px;
-        margin-left: 5%;
-        font-family: 'Archivo';
+    border: 2px solid rgba(255, 255, 255, 0.33);
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  :hover {
+    cursor: pointer;
+  }
+
+  &__form__container {
+    background: #222222;
+    width: 100%;
+    &__body {
+      width: 90%;
+      margin: 0 auto;
+      position: relative;
+      padding-top: 36px;
+      padding-bottom: 30px;
+
+      label {
+        // margin-left: 5%;
+        // padding-bottom: 30px;
+
+        font-family: "Roboto";
         font-style: normal;
         font-weight: 700;
-        font-size: 13px;
-        line-height: 18px;
-        letter-spacing: 2.8px;
-        color: #FFFFFF;
-    }
-    &__title{
-        max-width: 80%;
-        margin-left: 5%;
-        margin-bottom: 40px;
-        font-family: 'Old Standard TT';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 56px;
-        line-height: 60px;
-        letter-spacing: -1.2px;
-        color: #FFFFFF;
-    }
-    &__button1{
-        display: block;
-        width: 217px;
-        height: 60px;
-        background: #BEAD8E;
-        margin-left: 5%;
-        margin-top:24px;
+        font-size: 16px;
+        color: #ffffff;
+      }
+      input {
+        width: 90%;
+        margin: 0 auto;
+        // margin-left: 5%;
+        margin-top: 54px;
+        padding-left: 30px;
+        padding-bottom: 10px;
 
-        font-family: 'Archivo';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 15px;
-        letter-spacing: 2.8px;
-        text-transform: uppercase;
-        color: #FFFFFF;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #bead8e;
+        background-color: #222222;
+        color: #686868;
 
-    }:hover{
-        cursor: pointer;
-    }
-    &__button2{
-        display: block;
-        width: 217px;
-        height: 60px;
-        margin-top: 24px;;
-        margin-left: 5%;
-        margin-bottom: 76px;
-        background: #333333;
-
-        border: 2px solid rgba(255, 255, 255, 0.33);
-        font-family: 'Archivo';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 15px;
-        letter-spacing: 2.8px;
-        text-transform: uppercase;
-        color: #FFFFFF;
-    }:hover{
-        cursor: pointer;
-    }
-
-
-        &__form__container{
-            background: #222222;
-            width: 100%;
-            &__body{
-                width: 90%;
-                margin: 0 auto;
-                position: relative;
-                padding-top:36px;
-                padding-bottom: 30px;
-
-            label{
-                // margin-left: 5%;
-                // padding-bottom: 30px;
-
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 16px;
-                color: #FFFFFF;
-            }
-            input{
-                width: 90%;
-                margin:0 auto;
-                // margin-left: 5%;
-                margin-top: 54px;
-                padding-left: 30px;
-                padding-bottom: 10px;
-
-                border: none;
-                outline: none;
-                border-bottom: 1px solid #BEAD8E;
-                background-color:  #222222;
-                color: #686868;
-
-                #date{
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 16px;
-                }
-            }
-            img{
-                position: absolute;
-                left: 1px;
-                top: 105px;
-
-            }
+        #date {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
         }
-            button{
-                width: 250px;
-                height: 60px;
-                border: none;
-                background: #BEAD8E;
-                margin-top: 12px;
-                margin-bottom:36px;
-                margin-left: 5%;
-                font-family: 'Archivo';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 14px;
-                letter-spacing: 2.8px;
-                text-transform: uppercase;
-                color: #FFFFFF;
-            }:hover{
-                cursor: pointer;
-            }
-        }
+      }
+      img {
+        position: absolute;
+        left: 1px;
+        top: 105px;
+      }
+    }
+    button {
+      width: 250px;
+      height: 60px;
+      border: none;
+      background: #bead8e;
+      margin-top: 12px;
+      margin-bottom: 36px;
+      margin-left: 5%;
+      font-family: "Archivo";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 2.8px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    :hover {
+      cursor: pointer;
+    }
+  }
 }
 
 @media only screen and (min-width: 1000px) {
-    .main{
-        background-image: url(../Assets/fondo.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        // width: 100%;
-        // background-size: cover;
-        &__pre-title{
-            margin-left:14%;
-            font-size: 16px;
-        }
-        &__title{
-            margin-left:14%;
-            width: 40%;
-            font-size: 120px;
-            line-height: 120px;
-        }
-        &__button1{
-            display: inline;
-            margin-left:14%;
-
-        }
-        &__button2{
-            display: inline;
-        }
-        &__form__container{
-            padding: 30px;
-            &__body{
-                display: inline-block;
-                width: 24%;
-                margin-left: 14%;
-            }
-            button{
-                margin-left:0px;
-            }
-
-        }
+  .main {
+    background-image: url(../Assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    // width: 100%;
+    // background-size: cover;
+    &__pre-title {
+      margin-left: 14%;
+      font-size: 16px;
     }
-
+    &__title {
+      margin-left: 14%;
+      width: 40%;
+      font-size: 120px;
+      line-height: 120px;
+    }
+    &__button1 {
+      display: inline;
+      margin-left: 14%;
+    }
+    &__button2 {
+      display: inline;
+    }
+    &__form__container {
+      padding: 30px;
+      &__body {
+        display: inline-block;
+        width: 24%;
+        margin-left: 14%;
+      }
+      button {
+        margin-left: 0px;
+      }
+    }
+  }
 }
