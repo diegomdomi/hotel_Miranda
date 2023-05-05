@@ -83,6 +83,7 @@
   &-plane {
     filter: brightness(55%) sepia(1);
   }
+
   &-group {
     display: flex;
     justify-content: space-around;
@@ -99,6 +100,9 @@
       text-transform: uppercase;
 
       color: #222222;
+    }
+    &__unique-bbq {
+      display: none;
     }
   }
 }
@@ -281,12 +285,28 @@
     .about-us__icons-group {
       margin-left: 50px;
       .about-us__icons-group__unique {
-        margin-left: 50px;
+        margin-left: 140px;
+      }
+      :hover {
+        background-color: #bead8e;
+        img {
+          filter: brightness(155%) sepia(1);
+          background-color: rgba(226, 224, 135, 0);
+        }
+        p {
+          color: #fff;
+        }
+      }
+      &__unique-bbq {
+        display: block;
+        margin-left: 140px;
       }
     }
   }
   .about-us__restaurant {
-    width: 70%;
+    // width: 70%;
+    display: flex;
+    align-items: center;
     p {
       font-size: 18px;
       margin-bottom: 25px;
@@ -296,7 +316,7 @@
     // width: 70%;
     margin: 0 auto;
     img {
-      width: 100%;
+      // width: 100%;
       height: 90%;
     }
   }

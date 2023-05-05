@@ -96,7 +96,7 @@
         margin-top: 54px;
         padding-left: 30px;
         padding-bottom: 10px;
-
+        // cursor: none;
         border: none;
         outline: none;
         border-bottom: 1px solid #bead8e;
@@ -114,6 +114,12 @@
             height: 1.5rem;
             width: 1.5rem;
             filter: invert(0.5) sepia(1);
+            cursor:pointer;
+        }
+        &::-webkit-datetime-edit{
+          cursor:default;
+          color: white;
+          font-size: 15px;
         }
       }
      

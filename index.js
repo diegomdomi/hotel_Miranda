@@ -119,16 +119,21 @@ let nav = document.getElementById("nav-scroll");
 let initialValue = 0;
 let positionScroll = window.innerWidth < 999 ? true : false;
 
-if (!positionScroll) {
-  window.addEventListener("scroll", function () {
-    let currentValue = window.pageYOffset || document.documentElement.scrollTop;
+window.addEventListener("scroll", (e) => {
+  if (window.scrollY > 200) {
+    nav.classList.remove("topMenu");
+    nav.classList.add("menuHidden");
+  } else {
+    nav.classList.add("topMenu");
+    nav.classList.remove("menuHidden");
+  }
+});
 
-    if (currentValue > initialValue) {
-      nav.style.position = "absolute";
-    } else if (currentValue < initialValue) {
-      nav.style.position = "fixed";
-    }
+document.addEventListener("mouseover", (e) => {
+  if (e.y < 100 && window.scrollY > 200) {
+    nav.classList.remove("menuHidden");
+  } else if (e.y > 100 && window.scrollY > 200) {
+    nav.classList.add("menuHidden");
+  }
+});
 
-    initialValue = currentValue;
-  });
-}
