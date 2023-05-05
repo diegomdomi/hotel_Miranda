@@ -1356,11 +1356,8 @@ header {
     justify-content: center;
     margin-top: 120px;
   }
-  .about-us__icons .about-us__icons-group {
-    margin-left: 50px;
-  }
   .about-us__icons .about-us__icons-group .about-us__icons-group__unique {
-    margin-left: 140px;
+    padding: 40px;
   }
   .about-us__icons .about-us__icons-group :hover {
     background-color: #bead8e;
@@ -1374,7 +1371,10 @@ header {
   }
   .about-us__icons .about-us__icons-group__unique-bbq {
     display: block;
-    margin-left: 140px;
+    padding: 40px;
+  }
+  .about-us__icons .about-us__icons-group__unique-bbq p {
+    margin-top: 4px;
   }
   .about-us__restaurant {
     display: flex;

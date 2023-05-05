@@ -88,6 +88,7 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+
     p {
       margin-top: 13px;
       font-family: "Archivo";
@@ -283,9 +284,8 @@
     justify-content: center;
     margin-top: 120px;
     .about-us__icons-group {
-      margin-left: 50px;
       .about-us__icons-group__unique {
-        margin-left: 140px;
+        padding: 40px;
       }
       :hover {
         background-color: #bead8e;
@@ -299,7 +299,10 @@
       }
       &__unique-bbq {
         display: block;
-        margin-left: 140px;
+        padding: 40px;
+        p{
+          margin-top:4px;
+        }
       }
     }
   }
