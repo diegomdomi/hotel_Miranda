@@ -1,91 +1,87 @@
-.room-card{
-    width:90%;
-    padding-top:48px;
+.room-card {
+  width: 90%;
+  padding-top: 48px;
+  margin: 0 auto;
+  .card-img {
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 220px;
+      object-fit: contain;
+    }
+  }
+  .services-icons {
+    width: 256px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 10px;
+    z-index: 50;
+    background: white;
     margin: 0 auto;
-    .card-img{
-        img{
-            width: 100%;
-            object-fit: cover;
-            height:220px;
-            object-fit: contain;
-
-        }
+    box-shadow: 0px 8px 16px rgb(138 138 138 / 5%);
+  }
+  .minimal-card {
+    margin: 0 auto;
+    text-align: center;
+    background: #ffffff;
+    h4 {
+      margin-top: 28px;
+      font-family: "Old Standard TT";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 36px;
+      letter-spacing: -1.2px;
+      color: #222222;
     }
-    .services-icons{
-        width: 256px;
-        position: relative;
-        display: flex;
-        justify-content: space-evenly;
-        bottom: 10px;
-        z-index: 50;
-        background: white;
-        margin: 0 auto;
-        box-shadow: 0px 8px 16px rgb(138 138 138 / 5%);
-
+    p {
+      margin: 0 auto;
+      width: 80%;
+      margin-top: 19px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #777777;
     }
-    .minimal-card{
-        margin: 0 auto;
+    &__price {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 70%;
+      margin: 0 auto;
+      h5 {
+        font-family: "Archivo";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 43px;
         text-align: center;
-        background: #FFFFFF;
-    h4{
-        margin-top: 28px;
-        font-family: 'Old Standard TT';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 36px;
-        letter-spacing: -1.2px;
-        color: #222222;
-    }
-    p{
-        margin: 0 auto;
-        width:80%;
-        margin-top: 19px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #777777;
-    }
-    &__price{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 70%;
-        margin: 0 auto;
-        h5{
-            font-family: 'Archivo';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 43px;
-            text-align: center;
-            margin-top: 12px;
-            color: #BEAD8E;
-            sub{
-                font-size:12px
-            }
+        margin-top: 12px;
+        color: #bead8e;
+        sub {
+          font-size: 12px;
         }
-        h6{
-            font-family: 'Archivo';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 17px;
-            text-align: right;
+      }
+      h6 {
+        font-family: "Archivo";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: right;
 
-            color: #BDBDBD;
-        }
-
+        color: #bdbdbd;
+      }
     }
-    }
-    
+  }
 }
-@media only screen and (min-width:1000px){
-    .room-card-container{
-        display:flex;
-        width:80%;
-        margin:0 auto;
-    }
+@media only screen and (min-width: 1000px) {
+  .room-card-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
 }

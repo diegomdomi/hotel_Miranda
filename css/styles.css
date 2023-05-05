@@ -1,7 +1,7 @@
 @charset "UTF-8";
 header {
   width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@ header {
 }
 .container-menu__box-h {
   margin: 0 10px 0 25px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 14px 24px rgba(139, 139, 139, 0.25);
 }
 .container-menu__box-h p {
@@ -56,7 +56,7 @@ header {
   padding-left: 50px;
   padding-bottom: 20px;
   width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
 }
 .is_active a {
@@ -68,7 +68,7 @@ header {
   letter-spacing: 3.28px;
   text-transform: uppercase;
   line-height: 2.5rem;
-  color: #A5A5A5;
+  color: #a5a5a5;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
@@ -153,7 +153,7 @@ header {
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 2.8px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .main__title {
   max-width: 80%;
@@ -165,13 +165,13 @@ header {
   font-size: 56px;
   line-height: 60px;
   letter-spacing: -1.2px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .main__button1 {
   display: block;
   width: 217px;
   height: 60px;
-  background: #BEAD8E;
+  background: #bead8e;
   margin-left: 5%;
   margin-top: 24px;
   font-family: "Archivo";
@@ -181,7 +181,7 @@ header {
   line-height: 15px;
   letter-spacing: 2.8px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .main :hover {
   cursor: pointer;
@@ -202,7 +202,7 @@ header {
   line-height: 15px;
   letter-spacing: 2.8px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .main :hover {
   cursor: pointer;
@@ -223,7 +223,7 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .main__form__container__body input {
   width: 90%;
@@ -233,7 +233,7 @@ header {
   padding-bottom: 10px;
   border: none;
   outline: none;
-  border-bottom: 1px solid #BEAD8E;
+  border-bottom: 1px solid #bead8e;
   background-color: #222222;
   color: #686868;
 }
@@ -244,16 +244,16 @@ header {
   font-size: 14px;
   line-height: 16px;
 }
-.main__form__container__body img {
-  position: absolute;
-  left: 1px;
-  top: 105px;
+.main__form__container__body input::-webkit-calendar-picker-indicator {
+  height: 1.5rem;
+  width: 1.5rem;
+  filter: invert(0.5) sepia(1);
 }
 .main__form__container button {
   width: 250px;
   height: 60px;
   border: none;
-  background: #BEAD8E;
+  background: #bead8e;
   margin-top: 12px;
   margin-bottom: 36px;
   margin-left: 5%;
@@ -263,7 +263,7 @@ header {
   font-size: 14px;
   letter-spacing: 2.8px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .main__form__container :hover {
   cursor: pointer;
@@ -308,7 +308,7 @@ header {
   margin-top: 60px;
 }
 .about-us__discover {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 .about-us h6 {
   padding-top: 38px;
@@ -351,7 +351,7 @@ header {
   margin-left: 5%;
   margin-bottom: 175px;
   border: none;
-  background: #BDAC8D;
+  background: #bdac8d;
   font-family: "Archivo";
   font-style: normal;
   font-weight: 700;
@@ -359,7 +359,7 @@ header {
   line-height: 15px;
   letter-spacing: 2.8px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .about-us .about-pic {
   width: 100%;
@@ -372,7 +372,7 @@ header {
   text-align: center;
   margin: 0 auto;
   bottom: 115px;
-  background: #FFFFFF;
+  background: #ffffff;
   padding-bottom: 45px;
   box-shadow: 0px 8px 16px rgba(34, 34, 34, 0.02);
 }
@@ -422,7 +422,7 @@ header {
   line-height: 30px;
   text-align: center;
   letter-spacing: -0.9px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .about-us .luxury_container__body p {
   font-family: "Roboto";
@@ -432,7 +432,7 @@ header {
   line-height: 22px;
   text-align: center;
   padding-bottom: 38px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -508,7 +508,7 @@ header {
   bottom: auto;
   top: 10px;
   z-index: 5;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 8px 16px rgba(138, 138, 138, 0.05);
 }
 .rooms .room__slider .swiper_room {
@@ -520,7 +520,7 @@ header {
 }
 .rooms .room__slider .swiper_room .swiper-button-prev,
 .rooms .room__slider .swiper_room .swiper-button-next {
-  --swiper-navigation-size:25px;
+  --swiper-navigation-size: 25px;
   background-color: white;
   height: 60px;
   width: 40px;
@@ -540,7 +540,7 @@ header {
   text-align: center;
   position: relative;
   bottom: 30px;
-  background: #FFFFFF;
+  background: #ffffff;
   z-index: 5;
 }
 .rooms .minimal-card h4 {
@@ -572,7 +572,7 @@ header {
   line-height: 43px;
   text-align: center;
   margin-top: 12px;
-  color: #BEAD8E;
+  color: #bead8e;
 }
 .rooms .minimal-card h5 sub {
   font-size: 12px;
@@ -605,7 +605,7 @@ header {
   line-height: 15px;
   letter-spacing: 2.8px;
   text-transform: uppercase;
-  color: #BDAC8D;
+  color: #bdac8d;
 }
 .intro-video h2 {
   margin-top: 32px;
@@ -616,7 +616,7 @@ header {
   font-size: 56px;
   line-height: 60px;
   letter-spacing: -1.2px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .intro-video p {
   width: 80%;
@@ -628,7 +628,7 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #C2C2C2;
+  color: #c2c2c2;
 }
 .intro-video__video {
   width: 90%;
@@ -655,8 +655,8 @@ header {
   line-height: 15px;
   letter-spacing: 2.8px;
   text-transform: uppercase;
-  color: #FFFFFF;
-  background-color: #BDAC8D;
+  color: #ffffff;
+  background-color: #bdac8d;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -910,7 +910,7 @@ header {
   font-weight: 700;
   font-size: 60px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .black__list p sub {
   font-size: 35px;
@@ -947,14 +947,14 @@ header {
   width: 80px;
   height: 80px;
   padding: 18px 24px;
-  background: #BEAD8E;
+  background: #bead8e;
   box-shadow: 0px 14px 24px rgba(139, 139, 139, 0.15);
   font-family: "Archivo";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 43px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .footer__main-title {
   font-family: "Archivo";
@@ -1032,7 +1032,7 @@ header {
 }
 .footer .copyright {
   height: 94px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 .footer .copyright p {
   margin-left: 5%;
@@ -1095,7 +1095,7 @@ header {
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 2.8px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .about-us__home h1 {
   margin-left: 5%;
@@ -1106,7 +1106,7 @@ header {
   font-size: 56px;
   line-height: 60px;
   letter-spacing: -1.2px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .about-us__home-about {
   width: 156px;
@@ -1116,7 +1116,7 @@ header {
   justify-content: space-around;
   align-items: center;
   margin-left: 50%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .about-us__home-about h6 {
   font-family: "Archivo";
@@ -1231,7 +1231,7 @@ header {
   margin-left: 5%;
   width: 216px;
   height: 60px;
-  background: #BEAD8E;
+  background: #bead8e;
   border: none;
   box-shadow: 0px 14px 24px rgba(190, 173, 142, 0.36);
   font-family: "Archivo";
@@ -1240,7 +1240,7 @@ header {
   font-size: 14px;
   letter-spacing: 2.8px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .about-us__facilities {
@@ -1250,11 +1250,11 @@ header {
 }
 .about-us__facilities h6 {
   padding-top: 48px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .about-us__facilities h2 {
   padding-top: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .about-us__facilities_background {
   width: 90%;
@@ -1266,8 +1266,9 @@ header {
 .about-us__facilities_background h4 {
   color: #222222;
 }
-.about-us__facilities_background h5, .about-us__facilities_background p {
-  color: #FFFFFF;
+.about-us__facilities_background h5,
+.about-us__facilities_background p {
+  color: #ffffff;
 }
 .about-us__facilities .high-rating {
   padding-bottom: 42px;
@@ -1378,10 +1379,10 @@ header {
     color: #222222;
   }
   .about-us__facilities .facilities__desktop .facilities__individual-container .facilities__title h5 {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .about-us__facilities .facilities__desktop .facilities__individual-container .facilities__title p {
-    color: #FFFFFF;
+    color: #ffffff;
     padding-bottom: 35px;
   }
   .about-us__counter {
@@ -1419,7 +1420,7 @@ header {
 .room-card .minimal-card {
   margin: 0 auto;
   text-align: center;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .room-card .minimal-card h4 {
   margin-top: 28px;
@@ -1457,7 +1458,7 @@ header {
   line-height: 43px;
   text-align: center;
   margin-top: 12px;
-  color: #BEAD8E;
+  color: #bead8e;
 }
 .room-card .minimal-card__price h5 sub {
   font-size: 12px;
@@ -1469,7 +1470,7 @@ header {
   font-size: 16px;
   line-height: 17px;
   text-align: right;
-  color: #BDBDBD;
+  color: #bdbdbd;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -1512,7 +1513,7 @@ h5 {
   font-size: 32px;
   line-height: 43px;
   margin-top: 12px;
-  color: #BEAD8E;
+  color: #bead8e;
 }
 h5 sub {
   font-size: 12px;
@@ -1547,7 +1548,7 @@ h5 sub {
   color: black;
 }
 .detail-form input {
-  background: #F8F8F8;
+  background: #f8f8f8;
   width: 290px;
   height: 60px;
   padding: 0 22px 0 21px;
@@ -1585,7 +1586,7 @@ h5 sub {
   height: 1px;
   left: 1px;
   top: 43.45px;
-  background: #F1F1F1;
+  background: #f1f1f1;
 }
 .amenities__list {
   display: flex;
@@ -1621,8 +1622,8 @@ h5 sub {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background: #BDAC8D;
-  border: 4px solid #FFFFFF;
+  background: #bdac8d;
+  border: 4px solid #ffffff;
 }
 .avatar__check img {
   filter: brightness(45%) sepia(0);
@@ -1646,7 +1647,7 @@ h5 sub {
   line-height: 15px;
   letter-spacing: 2.8px;
   text-transform: uppercase;
-  color: #BDAC8D;
+  color: #bdac8d;
 }
 .avatar p {
   width: 85%;
@@ -1664,7 +1665,7 @@ h5 sub {
 .cancelation {
   width: 85%;
   margin: 0 auto;
-  margin-top: 63PX;
+  margin-top: 63px;
 }
 .cancelation h5 {
   font-family: "Old Standard TT";
@@ -1676,7 +1677,7 @@ h5 sub {
 }
 .cancelation p {
   margin-bottom: 101px;
-  margin-top: 32PX;
+  margin-top: 32px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -1714,7 +1715,7 @@ h5 sub {
   font-size: 23px;
 }
 .offers__prices h5:last-child {
-  color: #DE5777;
+  color: #de5777;
 }
 .offers h6 {
   margin-top: 16px;
@@ -1757,12 +1758,12 @@ h5 sub {
   line-height: 15px;
   letter-spacing: 2.8px;
   text-transform: uppercase;
-  color: #FFFFFF;
-  background-color: #BDAC8D;
+  color: #ffffff;
+  background-color: #bdac8d;
 }
 
 .amenities-offers {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 14px 24px rgba(184, 184, 184, 0.1);
 }
 
@@ -1776,7 +1777,7 @@ h5 sub {
 }
 .card-background .swiper-button-prev,
 .card-background .swiper-button-next {
-  --swiper-navigation-size:25px;
+  --swiper-navigation-size: 25px;
   background-color: white;
   height: 60px;
   width: 40px;
@@ -1809,7 +1810,7 @@ h5 sub {
   padding-bottom: 20px;
   text-align: center;
   position: relative;
-  background: #FFFFFF;
+  background: #ffffff;
   z-index: 5;
   bottom: 50px;
 }
@@ -1850,7 +1851,7 @@ h5 sub {
   line-height: 43px;
   text-align: center;
   margin-top: 12px;
-  color: #BEAD8E;
+  color: #bead8e;
 }
 .card-info__price h5 sub {
   font-size: 12px;
@@ -1862,9 +1863,20 @@ h5 sub {
   font-size: 16px;
   line-height: 17px;
   text-align: right;
-  color: #BDBDBD;
+  color: #bdbdbd;
 }
 
+@media only screen and (min-width: 1000px) {
+  .offers__prices-text {
+    width: 11%;
+    bottom: -7%;
+    background: rgba(0, 0, 0, 0.91);
+  }
+  .amenities__list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 .contact {
   width: 90%;
   margin: 0 auto;
@@ -1901,7 +1913,7 @@ h5 sub {
   font-size: 200px;
   line-height: 234px;
   letter-spacing: -6px;
-  color: #F8F8F8;
+  color: #f8f8f8;
 }
 
 .contact-img {
@@ -1922,10 +1934,11 @@ h5 sub {
 .contact-form__input-container {
   position: relative;
 }
-.contact-form__input-container input, .contact-form__input-container textarea {
+.contact-form__input-container input,
+.contact-form__input-container textarea {
   width: 100%;
   margin-bottom: 16px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding-top: 25px;
   padding-bottom: 23px;
   padding-left: 60px;
@@ -1947,8 +1960,8 @@ h5 sub {
   line-height: 19px;
   letter-spacing: 3.2px;
   text-transform: uppercase;
-  color: #FFFFFF;
-  background: #BEAD8E;
+  color: #ffffff;
+  background: #bead8e;
   padding: 20px 100px;
   border: none;
 }

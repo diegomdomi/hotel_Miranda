@@ -110,12 +110,13 @@
           font-size: 14px;
           line-height: 16px;
         }
+          &::-webkit-calendar-picker-indicator {
+            height: 1.5rem;
+            width: 1.5rem;
+            filter: invert(0.5) sepia(1);
+        }
       }
-      img {
-        position: absolute;
-        left: 1px;
-        top: 105px;
-      }
+     
     }
     button {
       width: 250px;
