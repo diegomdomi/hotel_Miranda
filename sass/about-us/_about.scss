@@ -352,11 +352,12 @@
     }
   }
   .about-us__counter {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
   }
   .about-us__counter__container {
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     gap: 60px;
   }
